@@ -3,3 +3,9 @@
 This Project is ClassBookAR.
 
 Thank you :)
+
+===============================================
+UPDATE
+
+2019-12-05: made "ClassBookAR" but Lean Drag Translate Bugs
+2019-12-06: Lean Drag Translate Fix - must make the block effect
