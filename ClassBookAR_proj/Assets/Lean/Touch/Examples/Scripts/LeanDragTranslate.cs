@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections.Generic;
+using Lean.Touch;
 
 namespace Lean.Touch
 {
@@ -55,8 +57,28 @@ namespace Lean.Touch
 
 		protected virtual void Update()
 		{
-			// Store
-			var oldPosition = transform.localPosition;
+            GameObject obj = this.gameObject;
+            if (obj == null)
+            {
+                Debug.Log(this.gameObject.name + " obj is null");
+                return;
+            }
+
+            BlockController bc = obj.GetComponent<BlockController>();
+            if (bc == null)
+            {
+                Debug.Log(this.gameObject.name + " bc is null");
+                return;
+            }
+
+            if (bc.isSelect() == false)
+            {
+                Debug.Log(this.gameObject.name + " Image not selected");
+                return;
+            }
+
+            // Store
+            var oldPosition = transform.localPosition;
 
 			// Get the fingers we want to use
 			var fingers = Use.GetFingers();

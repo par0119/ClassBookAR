@@ -104,6 +104,9 @@
     <Compile Include="Assets\Lean\Touch\Scripts\LeanGesture.cs" />
     <Compile Include="Assets\Lean\Touch\Scripts\LeanSnapshot.cs" />
     <Compile Include="Assets\Lean\Touch\Scripts\LeanTouch.cs" />
+    <Compile Include="Assets\Scripts\BlockController.cs" />
+    <Compile Include="Assets\Scripts\BlockEventTrigger.cs" />
+    <Compile Include="Assets\Scripts\ProjectManager.cs" />
     <None Include="Assets\Lean\Common\Examples\Shaders\Alpha.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\Lean\Common\Examples\Fonts\OFL.txt" />
@@ -117,6 +120,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/Git Proj/ClassBookAR/ClassBookAR_proj/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="VuforiaScripts">
+      <HintPath>D:/Git Proj/ClassBookAR/ClassBookAR_proj/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Git Proj/ClassBookAR/ClassBookAR_proj/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -125,6 +131,9 @@
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>D:/Git Proj/ClassBookAR/ClassBookAR_proj/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="VuforiaEditorScripts">
+      <HintPath>D:/Git Proj/ClassBookAR/ClassBookAR_proj/Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/Git Proj/ClassBookAR/ClassBookAR_proj/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
@@ -137,12 +146,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Git Proj/ClassBookAR/ClassBookAR_proj/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="VuforiaScripts">
-      <HintPath>D:/Git Proj/ClassBookAR/ClassBookAR_proj/Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
-    </Reference>
-    <Reference Include="VuforiaEditorScripts">
-      <HintPath>D:/Git Proj/ClassBookAR/ClassBookAR_proj/Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
